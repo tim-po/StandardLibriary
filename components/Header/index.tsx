@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react";
-import Button from "../Button.js";
 import ConnectModal from "../ConnectModal";
 import {useWeb3React} from "@web3-react/core";
 import './index.css'

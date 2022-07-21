@@ -30,6 +30,7 @@ const StandardAppContainer = (props: { logoHref?: string, hideWalletConnector?: 
     useConnectionCheck();
 
     useEffect(() => {
+        //@ts-ignore
         injected.isAuthorized().then((isAuthorized) => {
             if (isAuthorized && !active && !networkError) {
                 activate(injected);

@@ -40,3 +40,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+.spinner{
+  background: url("../../images/load.svg");
+  width: 24px;
+  height: 24px;
+  animation: half-circle-spinner-animation 1s infinite;
+}

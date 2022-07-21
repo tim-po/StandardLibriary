@@ -2,7 +2,7 @@ import React, {useContext, useEffect, useRef, useState} from "react";
 import texts from './localization'
 import LocaleContext from "../../LocaleContext";
 import {localized} from "../../utils/localized";
-import Button from "../Button";
+import {Button} from "../Button";
 import MetamaskJazzicon from "../MetamaskJazzicon";
 import {HidingText} from "../HidingText";
 import {useWeb3React} from "@web3-react/core";

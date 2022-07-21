@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./index.scss";
 import { AutoComplete, ConfigProvider, DatePicker, Input } from "antd";
 import moment from "moment";
-import placeholder from "lodash/fp/placeholder";
+// import placeholder from "lodash/fp/placeholder";
 
 // CONSTANTS
 
